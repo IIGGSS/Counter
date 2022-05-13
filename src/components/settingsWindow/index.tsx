@@ -3,16 +3,22 @@ import s from './styles.module.css';
 
 
 interface SettingsWindowPropsInterface {
-    max:number,
-    start:number,
-    onMaxChangeHandler: (e: ChangeEvent<HTMLInputElement>)=>void,
-    onStartChangeHandler: (e: ChangeEvent<HTMLInputElement>)=>void,
-    flag2:boolean
+    max: number,
+    start: number,
+    onMaxChangeHandler: (e: ChangeEvent<HTMLInputElement>) => void,
+    onStartChangeHandler: (e: ChangeEvent<HTMLInputElement>) => void,
+    flag2: boolean
 }
 
-const SettingsWindow: React.FC<SettingsWindowPropsInterface> = ({max,start,onMaxChangeHandler,onStartChangeHandler,flag2}) => {
+const SettingsWindow: React.FC<SettingsWindowPropsInterface> = ({
+                                                                    max,
+                                                                    start,
+                                                                    onMaxChangeHandler,
+                                                                    onStartChangeHandler,
+                                                                    flag2
+                                                                }) => {
 
-    const error = flag2?s.error:'';
+    const error = flag2 ? s.error : '';
     return (
         <div className={s.settingsWindow__wrapper}>
             <div className={s.settingsWindow__row}>

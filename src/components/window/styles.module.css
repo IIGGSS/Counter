@@ -1,4 +1,4 @@
-.window__wrapper{
+.window__wrapper {
     font-size: 70px;
     font-weight: 600;
     flex: 0 0 100%;
@@ -9,22 +9,22 @@
     align-items: center;
 }
 
-.window__error{
+.window__error {
     color: crimson;
     font-size: 22px;
     font-weight: 600;
 }
 
-.window__text{
+.window__text {
     font-size: 22px;
     font-weight: 600;
 }
 
-.window__text span{
+.window__text span {
     color: #ffa500;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 
-.disabled{
+.disabled {
     color: crimson;
 }

@@ -10,7 +10,7 @@ interface ButtonPropsInterface {
 const Button: React.FC<ButtonPropsInterface> = ({title, callBack, disabled}) => {
 
     const buttonClassDis = disabled ? s.disabled : '';
-    const buttonClass = title === 'inc'? s.inc : title === 'reset'? s.reset : s.set
+    const buttonClass = title === 'inc' ? s.inc : title === 'reset' ? s.reset : s.set
 
     return (
         <div className={`${s.button__wrapper} ${buttonClass}`}>
