@@ -1,0 +1,56 @@
+.button__wrapper{
+    flex: 0 0 50%;
+    height: 50%;
+    background-color: #fff;
+}
+.button__wrapper.set{
+    flex: 0 0 100%;
+}
+.button__wrapper.set button{
+    background-color: rgba(255, 165, 0, 0.8);
+}
+.button__wrapper.set button:hover{
+    background-color: rgba(222, 143, 4, 0.8);
+}
+.button__wrapper.set button:active{
+    background-color: rgba(255, 165, 0, 0.8);
+}
+
+
+.button__wrapper.inc button{
+    background-color: rgba(124, 252, 0, 0.8);
+}
+.button__wrapper.inc button:hover{
+    background-color: rgba(96, 196, 4, 0.8);
+}
+.button__wrapper.inc button:active{
+    background-color: rgba(124, 252, 0, 0.8);
+}
+
+
+.button__wrapper.reset button{
+    background-color: rgba(220, 20, 60, 0.8);
+}
+.button__wrapper.reset button:hover{
+    background-color: rgba(183, 20, 55, 0.8);
+}
+.button__wrapper.reset button:active{
+    background-color: rgba(220, 20, 60, 0.8);
+}
+
+
+button{
+    text-transform: uppercase;
+    color: azure;
+    font-size: 26px;
+    font-weight: 900;
+    width: 100%;
+    height: 100%;
+    text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+.disabled{
+    color: rgba(0, 0, 0, 0.4);
+    text-decoration: line-through;
+}
+

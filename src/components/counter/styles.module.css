@@ -1,0 +1,9 @@
+.counter__wrapper{
+    flex: 0 0 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
